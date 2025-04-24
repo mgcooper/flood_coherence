@@ -28,8 +28,11 @@ compute_flood_coherence <- function(FloodEvents, peakDateColumn = "Peak_date") {
    basins = names(FloodEvents)
    scenarios = names(FloodEvents[[basins[1]]])
 
+   floodCoherenceScore <- list()
+
    # Loop over each scenario and compute FCS
    for (scenario in scenarios) {
+
       # Organize data for the scenario ensuring unique peak dates
       scenarioData <- organizeDataByScenario(FloodEvents, scenario)
 
