@@ -1,3 +1,6 @@
+# Project-specific ignores
+figs/
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,matlab,python,textmate,octave,r,xcode,cmake,julia,spreadsheet,visualstudiocode,fortran,virtualenv,openfoam,homebrew,c++,c,dotenv,direnv,doxygen,tex,git,gis,java,jupyternotebooks,latex,microsoftoffice,rust,replit,sublimetext,venv,zsh
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,matlab,python,textmate,octave,r,xcode,cmake,julia,spreadsheet,visualstudiocode,fortran,virtualenv,openfoam,homebrew,c++,c,dotenv,direnv,doxygen,tex,git,gis,java,jupyternotebooks,latex,microsoftoffice,rust,replit,sublimetext,venv,zsh
 
