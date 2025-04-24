@@ -1,6 +1,10 @@
 # Flood Coherence
 
-<!-- TODO: Brief project description -->
+`flood_coherence` is an R-based project to analyze the spatial coherence of flood events and their syncronization in time.
+
+## Getting Started
+
+Thanks for your interest. To get started, here's what we recommend:
 
 ## 📦 Project Setup
 
@@ -29,6 +33,12 @@ Note: This project requires the `FloodR` package. If you receive warning message
 
 ```r
 devtools::install_github(repo = "PhilippBuehler/FloodR")
+```
+
+`FloodR` requires `Rcpp`. If you receive compiler warnings during install, ensure `~/.R.Makevars` exists and correctly defines `CXXFLAGS`. On a Mac, type `xcrun --show-sdk-path` into your terminal and copy the path returned into your Makevars file. For example, if `xcrun --show-sdk-path` returns `/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk`, then your `~/.R/Makevars` file should contain the line:
+
+```sh
+CXXFLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 ```
 
 ### 🔄 Updating Dependencies
